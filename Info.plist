@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>CFBundleDisplayName</key>
+	<string>Phyllite</string>
+
+	<key>CFBundleName</key>
+	<string>Phyllite</string>
+
+	<key>CFBundleIdentifier</key>
+	<string>com.r3alcyb3r.phyllite</string>
+
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+
+	<key>CFBundleVersion</key>
+	<string>1</string>
+
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>An installed mod has requested access to your local network.</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>An installed mod has requested access to your microphone.</string>
+
+	<key>NSCameraUsageDescription</key>
+	<string>An installed mod has requested access to your camera.</string>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>An installed mod has requested access to Bluetooth.</string>
+
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>An installed mod has requested access to Bluetooth.</string>
+
+</dict>
+</plist>
