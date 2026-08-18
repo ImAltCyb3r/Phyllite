@@ -25,7 +25,7 @@
 	<true/>
 
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>An installed mod has requested access to your local network.</string>
+	<string>An installed mod has requested access to your local network. Otherwise, connect with people on your network.</string>
 
 	<key>NSMicrophoneUsageDescription</key>
 	<string>An installed mod has requested access to your microphone.</string>
