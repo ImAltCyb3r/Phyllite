@@ -1,0 +1,54 @@
+{
+    "language": {
+        "type": "select",
+        "default": "en",
+        "options": [
+            "en",
+            "es"
+        ]
+    },
+    "notifications": {
+        "type": "toggle",
+        "default": true
+    },
+    "show_mod_updates": {
+        "type": "toggle",
+        "default": true
+    },
+    "auto_reload_mods": {
+        "type": "toggle",
+        "default": false
+    },
+    "reload_mods": {
+        "type": "button",
+        "label": "Reload Mods"
+    },
+    "enable_all_mods": {
+        "type": "button",
+        "label": "Enable All Mods"
+    },
+    "disable_all_mods": {
+        "type": "button",
+        "label": "Disable All Mods"
+    },
+    "show_logs": {
+        "type": "toggle",
+        "default": false
+    },
+    "debug_mode": {
+        "type": "toggle",
+        "default": false
+    },
+    "confirm_mod_removal": {
+        "type": "toggle",
+        "default": true
+    },
+    "check_for_updates": {
+        "type": "toggle",
+        "default": true
+    },
+    "reset_settings": {
+        "type": "button",
+        "label": "Reset Settings"
+    }
+}
