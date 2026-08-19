@@ -85,4 +85,6 @@ Project
 
 Phyllite is developed by R3ALCYB3R.
 
+Note: this is NOT the same thing as geode SDK.
+
 Version: 1.0.0
