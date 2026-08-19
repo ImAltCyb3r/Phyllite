@@ -1,0 +1,8 @@
+{
+    "title": "Phyllite",
+    "author": "R3ALCYB3R",
+    "version": "1.0.0",
+    "description": "Phyllite is a mod loader and framework for Geometry Dash.",
+    "details": "Phyllite provides a simple way to manage and load mods for Geometry Dash.",
+    "license": "MIT"
+}
