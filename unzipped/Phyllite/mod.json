@@ -1,0 +1,9 @@
+{
+    "id": "com.r3alcyb3r.phyllite",
+    "name": "Phyllite",
+    "version": "1.0.0",
+    "author": "R3ALCYB3R",
+    "description": "A mod loader and framework for Geometry Dash.",
+    "game": "Geometry Dash",
+    "icon": "icon.png"
+}
