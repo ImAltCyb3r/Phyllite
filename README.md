@@ -19,9 +19,9 @@ Mod Structure
 A basic Phyllite mod can be as simple as:
 
 ExampleMod/
-├── mod.json
-├── about.json
-└── icon.png
+mod.json
+about.json
+icon.png
 
 icon.png is optional.
 
