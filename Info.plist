@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+
+    <!-- App Identity -->
+    <key>CFBundleDisplayName</key>
+    <string>Phyllite</string>
+
+    <key>CFBundleName</key>
+    <string>Phyllite</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>com.cyb3r.phyllite</string>
+
+    <key>CFBundleExecutable</key>
+    <string>Phyllite</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <key>CFBundleSignature</key>
+    <string>PHYL</string>
+
+
+    <!-- Supported Devices -->
+    <key>UIDeviceFamily</key>
+    <array>
+        <integer>1</integer>
+        <integer>2</integer>
+    </array>
+
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>arm64</string>
+    </array>
+
+
+    <!-- Local Network Permission -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Phyllite uses the local network to connect to Geometry Dash services, multiplayer features, and other devices on your network.</string>
+
+
+    <!-- Microphone Permission -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Phyllite uses the microphone for supported audio and multiplayer features.</string>
+
+
+    <!-- Document Types -->
+    <key>CFBundleDocumentTypes</key>
+    <array>
+
+        <!-- .gmap -->
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Phyllite Game Map</string>
+
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+
+            <key>LSHandlerRank</key>
+            <string>Owner</string>
+
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.cyb3r.phyllite.gmap</string>
+            </array>
+        </dict>
+
+        <!-- .phle -->
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Phyllite Plugin</string>
+
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+
+            <key>LSHandlerRank</key>
+            <string>Owner</string>
+
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.cyb3r.phyllite.phle</string>
+            </array>
+        </dict>
+
+    </array>
+
+
+    <!-- Exported File Types -->
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+
+        <!-- Phyllite Game Map -->
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>com.cyb3r.phyllite.gmap</string>
+
+            <key>UTTypeDescription</key>
+            <string>Phyllite Game Map</string>
+
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <string>gmap</string>
+
+                <key>public.mime-type</key>
+                <string>application/x-phyllite-gmap</string>
+            </dict>
+        </dict>
+
+
+        <!-- Phyllite Plugin -->
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>com.cyb3r.phyllite.phle</string>
+
+            <key>UTTypeDescription</key>
+            <string>Phyllite Plugin</string>
+
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <string>phle</string>
+
+                <key>public.mime-type</key>
+                <string>application/x-phyllite-plugin</string>
+            </dict>
+        </dict>
+
+    </array>
+
+</dict>
+</plist>
